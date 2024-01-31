@@ -10,48 +10,48 @@
 
     <div class="admin-panel">
         <header>
-            <h1>Admin Panel</h1>
+            <h1>Panel Administrador</h1>
             <button onclick="logout()">Logout</button>
         </header>
         
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#users">Users</a></li>
-                <li><a href="#settings">Settings</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#users">Usuarios</a></li>
+                <li><a href="#settings">Ajustes</a></li>
             </ul>
         </nav>
         
         <main>
             <section id="dashboard">
-                <h2>Dashboard</h2>
-                <p>Bienvenido al Panel de administración. Aquí puede ver estadísticas e información importantes sobre su aplicación.</p>
+                <h2>Panel</h2>
+                <p>Bienvenido al Panel de administración. Aquí puede ver estadísticas e información importantes sobre su gestión.</p>
                 <div class="dashboard-content">
                     <div class="stat-box">
                         <h3>Total Usuarios</h3>
-                        <p>250</p>
+                        <p>10</p>
                     </div>
                     <div class="stat-box">
                         <h3>Sesiones Activas</h3>
-                        <p>50</p>
+                        <p>10</p>
                     </div>
                     <div class="stat-box">
                         <h3>Ganancias</h3>
-                        <p>$10,000</p>
+                        <p>$50.000.000</p>
                     </div>
                 </div>
             </section>
             
             <section id="users">
-                <h2>Usuaris</h2>
+                <h2>Usuarios</h2>
                 <p>Administre sus usuarios aquí. Vea, agregue, edite o elimine cuentas de usuario según sea necesario.</p>
                 <table>
                     <thead>
                         <tr>
-                            <th>User ID</th>
-                            <th>Username</th>
+                            <th>ID Usuario</th>
+                            <th>Nombre</th>
                             <th>Email</th>
-                            <th>Actions</th>
+                            <th>Acción</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -59,28 +59,28 @@
                             <td>1</td>
                             <td>john_doe</td>
                             <td>john@example.com</td>
-                            <td>Edit | Delete</td>
+                            <td>Editar | Eliminar</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>jane_smith</td>
                             <td>jane@example.com</td>
-                            <td>Edit | Delete</td>
+                            <td>Editar | Eliminar</td>
                         </tr>
                     </tbody>
                 </table>
             </section>
             
-            <section id="settings">
-                <h2>Settings</h2>
+            <section id="Confirguración">
+                <h2>Confirguración</h2>
                 <p>Configure los ajustes de su aplicación aquí. Personaliza el comportamiento y la apariencia de tu panel de administración.</p>
                 <div class="settings-form">
-                    <label for="theme">Select Theme:</label>
+                    <label for="theme">Seleccionar tema:</label>
                     <select id="theme" name="theme">
-                        <option value="light">Light</option>
-                        <option value="dark">Dark</option>
+                        <option value="light">Blanco</option>
+                        <option value="dark">Oscuro</option>
                     </select>
-                    <button onclick="saveSettings()">Save Settings</button>
+                    <button onclick="saveSettings()">Guardar Configuración</button>
                 </div>
             </section>
         </main>
