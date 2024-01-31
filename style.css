@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #004A4D;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu .navbar ul {
+    display: flex;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 0 20px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #e7e7e7;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    background-color: white;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Ajusta el tamaño del ícono */
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 25px; /* Ajusta el tamaño del ícono según sea necesario */
+}
+
+/* Cambia el color de las flechas cuando están activas (hover) */
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-content h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+
+}
+
+.information {
+    padding: 70px;
+}
+
+.information-group {
+    background-color: #FFFFFF;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+
+
+.information1 {
+    width: 50%;
+}
+
+.information2 {
+    width: 25%;
+}
+
+
+.information3 {
+    width: 25%;
+}
+
+.information1 h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.information2 p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.information3 {
+    background-color: #000000;
+    text-align: center;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+}
+
+.hr-information {
+    border-color: #ffffff; /* Cambia "red" al color que desees */
+    margin: 80px 0 40px 0; 
+}
+
+.information-hour {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.general1 {
+    padding: 30px 0;
+
+}
+
+.general1 h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+.general1-group {
+    display: flex;
+}
+
+.general1-img {
+    flex-basis:50%;
+}
+
+.general1-img img {
+    height: 400px;
+}
+
+.general1-text {
+    flex-basis: 50%;
+    color: #FFFFFF;
+    margin: 0 50px;
+}
+
+.general1-text h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.top {
+    margin-top: 80px;
+}
+
+.services {
+    background-color: #FFFFFF;
+    margin: 80px 0;
+    padding: 80px 0;
+}
+
+.services-group h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+}
+
+.services-boxes {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 40px;
+}
+
+.services-box {
+    border-top: 1px solid #000000;   
+    padding: 30px 0 0 0;
+}
+
+.services-box h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.relax {
+    padding: 30px 0;
+    color: #FFFFFF;
+}
+
+.relax h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.relax img {
+    width: 100%;
+}
+
+.relax-text {
+    margin-top: 25px;
+    width: 50%;
+}
+
+.relax-text h4 {
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding: 80px 0 50px 0;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1 ul {
+    display: flex ;
+}
+
+.footer-1 ul li {
+    margin: 0 30px;
+}
+
+.footer-1 ul li a {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.form-content {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura al 100% de la ventana */
+
+}
+
+.form-login {
+    width: 500px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 25px;
+   
+}
+
+.form-login h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.form-login a {
+    margin-top: 10px;
+    color: rgb(0, 51, 110);
+    font-size: 17px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #c3c3c3;
+    border: 0;
+    outline: none;
+}
+
+.btn-2 {
+    margin-top: 25px;
+    background-color: #000000;
+    color: #FFFFFF !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    border-radius: 10px;
+    text-align: center;
+}

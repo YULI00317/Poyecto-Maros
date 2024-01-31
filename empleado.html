@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel del Empleado</title>
+    <link rel="stylesheet" href="estilos-empleado.css">
+</head>
+<body>
+
+    <div class="panel-empleado">
+        <header>
+            <h1>Panel del Empleado</h1>
+            <a href="index.html">Home</a>
+            <button onclick="cerrarSesion()">Cerrar Sesión</button>
+        </header>
+        
+        <main>
+            <section id="perfil">
+                <h2>Bienvenido, [Nombre del Empleado]!</h2>
+                <div class="info-perfil">
+                    <img src="avatar-empleado.jpg" alt="Avatar del Empleado">
+                    <p>Email: empleado@ejemplo.com</p>
+                    <p>Puesto: [Puesto del Empleado]</p>
+                </div>
+            </section>
+            
+            <section id="tareas">
+                <h2>Lista de Tareas</h2>
+                <ul>
+                    <li>Tarea 1</li>
+                    <li>Tarea 2</li>
+                    <li>Tarea 3</li>
+                    <!-- Agrega más tareas según sea necesario -->
+                </ul>
+            </section>
+            
+            <section id="asistencia">
+                <h2>Asistencia</h2>
+                <p>Último Check-In: [Fecha y Hora]</p>
+                <button onclick="marcarEntrada()">Marcar Entrada</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="script-empleado.js"></script>
+</body>
+</html>

@@ -3,170 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MARO´S SPA</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <title>Maro's SPA</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
 
-<header>
-    <div class="menu container">
-        <a href="#" class="logo"><img src="Imagenes/LOGO.jpeg" alt=""></a>
-        <input type="checkbox" id="menu" />
-        <label for="menu">
-            <img src="Imagenes/MENU.jpg" class= "menu-icono"alt="">
-        </label>
-        <nav class="navbar">
+    <header class="header">
+        <div class="container">
+            <div class="menu">
+                <a href="#" class="logo"><img src="images/logo.svg"></a>
+                <input type="checkbox" id="menu" />
+                <label for="menu">
+                    <img src="images/menu.png" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="admin.html">Administrador</a></li>
+                        <li><a href="empleado.html">Empleado</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+            <div class="header-content">
+                <h1>MARO'S SPA</h1>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <video width="100%" controls>
+                            <source src="images/slider 1.mp4" type="video/mp4">
+                            Tu navegador no soporta el tag de video.
+                        </video>
+                      </div>
+                      <div class="swiper-slide">
+                        <video width="100%" controls>
+                            <source src="images/slider 2.mp4" type="video/mp4">
+                            Tu navegador no soporta el tag de video.
+                        </video>
+                      </div>
+                      <div class="swiper-slide">
+                        <video width="100%" controls>
+                            <source src="images/slider 3.mp4" type="video/mp4">
+                            Tu navegador no soporta el tag de video.
+                        </video>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                
+            </div>
+  
+    </header>
+
+    <section class="information container">
+
+        <div class="information-group">
+            <div class="information1">
+                <h3>Un masaje a tiempo es una inversión en tu salud.</h3>
+            </div>
+            <div class="information2">
+                <p>+57 3124136608</p>
+            </div>
+            <div class="information3">
+                <a href="#" class="btn1">Comuniquese con <br> nosotros</a>
+            </div>
+
+        </div>
+
+        <hr class="hr-information">
+
+        <div class="information-hour">
+            <p>Todos los dias</p>
+            <p>de 9:00 a 20:30</p>
+
+        </div>
+
+    </section>
+
+    <section class="general1 container">
+        <h2>MASAJES RELAJANTES</h2>
+
+        <div class="general1-group">
+            <div class="general1-img">
+                <img src="Imagenes/MASAJE-RELAJANTE-1.jpg" alt="">
+            </div>
+    
+            <div class="general1-text">
+                <h3>TOP CORPUS MASAJE RELAJANTE</h3>
+                <p>Ayuda a mejorar el intestino, reduce las medidas, alivia los dolores, relaja y drena.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="general1 top container">
+        <div class="general1-group">
+            <div class="general1-text">
+                <h3>MASAJE TERAPEUTICO</h3>
+                <p>Tiene 9 beneficios, entres algunos: Reduce la tensión muscular, Mejora la circulación, Alivia el estrés
+                    Agiliza la curación de las lesiones en tejido blando...</p>
+            </div>
+            <div class="general1-img">
+                <img src="images/g3.jpg" alt="">
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="services">
+
+        <div class="services-group container">
+            <h2>SERVICIOS DEL SPA</h2>
+
+            <div class="services-boxes">
+               
+                <div class="services-box">
+                   <h4>RITUALES</h4> 
+                   <p>Disfrute de un tratamiento excepcional de lujo
+                     diseñado con ingredientes locales.</p>
+
+                </div>
+                <div class="services-box">
+                    <h4>FACIALES</h4> 
+                    <p>Aproveche al máximo los efectos de limpieza profunda con 
+                        nuestros faciales avanzadoS.
+                    </p>
+                 </div>
+                 <div class="services-box">
+                    <h4>MASAJES CORPORALES</h4> 
+                    <p>Relájese y recupérese con una variedad de masajes sanadores.
+                    </p>
+                 </div>
+                 <div class="services-box">
+                    <h4>OTROS MASAJES</h4> 
+                    <p>La vía más rápida hacia la relajación es con una 
+                        exfoliación del cuerpo completo, o un masaje de
+                         cabeza y cuello o de una área específica del cuerpo.
+                    </p>
+                 </div>
+                 <div class="services-box">
+                    <h4>REFLEXOLOGÍA</h4> 
+                    <p>Alivia los dolores comunes como: lumbagías. cólicos nefríticos, cefaleas, malestar de cabeza, etc.
+                    </p>
+                 </div>
+                 <div class="services-box">
+                    <h4>EXPERIENCIA ADICIONAL</h4> 
+                    <p>Tratamientos adicionales para embarazadas y bebés.
+                    </p>
+                 </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="relax container">
+
+        <h2>RELAJACIÓN</h2>
+
+        <img src="Imagenes/masaje relajante 2.webp" alt="">
+
+        <div class="relax-text">
+            <h4>SUITE PARA PAREJAS</h4>
+            <p>
+                Dedique tiempo a reconectar con un ser querido, una amiga íntima o un
+                 familiar en nuestra espaciosa suite de spa para dos personas que cuenta 
+                 con camillas de masaje dispuestas una al lado de la otra. Dos terapeutas 
+                trabajarán al unísono para brindar una experiencia compartida inolvidable.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="general1 container">
+        <div class="general1-group">
+            <div class="general1-img">
+                <img src="images/g4.jpg" alt="">
+            </div>
+    
+            <div class="general1-text">
+                <h3>TIENDA DEL SPA</h3>
+                <p>Llévese a casa la experiencia de spa con los aceites corporales 
+                    rejuvenecedores, las cremas humectantes y los
+                     exfoliantes suaves de Four Seasons.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="general1 top container">
+
+        <div class="general1-group">
+
+            <div class="general1-text">
+                <h3>LIMPIEZA FACIAL</h3>
+                <p>Elimina impurezas y celulas muertas, limpia poros, elimina acné y puntos negros mantiene la piel fresca y luminosa, 
+                    da oxigenación a la piel y retrasa la aparición de arrugas.</p>
+            </div>
+            <div class="general1-img">
+                <img src="Imagenes/limpieza facial.jpg" alt="">
+            </div>
+    
+          
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="footer-1">
+            <img src="images/logo.svg" alt="">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Instalaciones</a></li>
-                <li><a href="#">Contactenos</a></li>
             </ul>
-        </nav>
-    </div>
-    <div class="header-content container" >
-        <div class="swiper mySwiper-1">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <video class= "slider" src="Imagenes/slider 1.mp4" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <video class= "slider" src="Imagenes/Slider 2.mp4" alt="">
-                </div>
-                <div class="swiper-slide">
-                    <video class= "slider" src="Imagenes/slider 3.mp4" alt="">
-                </div>
-            </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-             </div>
-            <a href="#" class = "enlace">Para mas informacion</a>
         </div>
 
-</header>
-
-<section class="bee">
-    <div class="swiper mySipwer-2 container">
-        <div class="swiper - swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="product">
-                    <img src="Imagenes/masaje facial.jpg" alt="">
-                    <div class="producto-txt">
-                        <h4>Masaje Facial</h4>    
-                        <h3>Reduce la papada, produce efecto lifting, ayuda al rejuvenecimiento, reduce los sintomas de la migraña,y relaja los musculos del cuello y la mandibula. También ayuda al tratamiento de ATM y el bruxismo</h3>
-                    </div>
-                </div>
-             <div class="swiper-slide">
-             <div class="product">
-                <img src="Imagenes/masaje para embarazadas.jpg" alt="">
-                 <div class="producto-txt">
-                         <h4>Masaje para Embarazadas</h4>    
-                        <h3>Masaje con cuidado especial, posicionamiento adecuado para ofrecer un drenaje efectivo y sin dolor</h3>
-                     </div>
-             </div>
-          <div class="swiper-slide">
-                <div class="product">
-                  <img src="Imagenes/masaje relajante 2.webp" alt="">
-                      <div class="producto-txt">
-                        <h4>Masaje Relajante</h4>   
-                            <h3>Ideal para personas con estrés, insomnio, ansiedad, depresión, etc. Libera endorfinas y serotonina, hormonas relacionadas al placer y bienestar mental</h3> 
-                                 </div>
-                                     </div>
-
-            <div class="swiper-slide">
-                 <div class="product">
-                    <img src="Imagenes/masaje-shantala-bebe.webp" alt="">
-                        <div class="producto-txt">
-                            <h4>Masaje Shantala</h4>
-                                <h3>Masaje especial para bebés, mejora el sueño de los bebés, y los relaja. Transmite seguridad y confianza al bebé, potencia el crecimiento y a adaptación al nuevo entorno, ideal para bebés de 0 a 3 años</h3>    
-                                 </div>
-                                    </div>
-
-            <div class="swiper-slide">
-                <div class="product">
-                    <img src="Imagenes/reflexología.jpg" alt="">
-                        <div class="producto-txt">
-                            <h4>Reflexología</h4>   
-                                <h3>Permite aliviar los dolores comunes como: lumbagias, cólicos nefriticos, cefaleas, malestar de cabeza, etc.</h3>
-                                    </div>
-                                        </div>
-
-            <div class="swiper-slide">
-                <div class="product">
-                    <img src="Imagenes/Fisioterapia.jpg" alt="">
-                        <div class="producto-txt">
-                            <h4>Fisioterapia</h4>
-                                <h3>Mediante la aplicación de métodos físicos se cura, previene, recupera y adapta a las personas con disfunciones somáticas</h3>>    
-                         </div>
-                     </div>
-            <div class="swiper-slide">
-                <div class="product">
-                  <img src="Imagenes/drenaje linfatico.jpeg" alt="">
-                     <div class="producto-txt">
-                        <h4>Drenaje linfático</h4>    
-                          <h3>Elimina toxinas, disminuye la hormona del estrés (cortisol), ayudando a la desinflamación del cuerpo. Favorece la circulación y la retención de liquidos</h3>
-                     </div>
-               </div>
-
-            <div class="swiper-slide">
-                <div class="product">
-                    <img src="Imagenes/limpieza facial.jpg" alt="">
-                        <div class="producto-txt">
-                            <h4>Limpeza Facial</h4>  
-                                <h3>Elimina impurezas y células muertas, limpia poros, elimina acné y puntos negros, mantiene la piel fresca y luminosa, mantiene la oxigenación de la piel y retrasa la aparición de arrugas.</h3>  
-                         </div>
-                    </div>
-            </div>
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
-    </div>
-
-    <section class="nosotros"></section>
-
-    <div class="nosotros - txt container">
-        <h2>Nosotros</h2>
-        <p> El mejor <br> <span> SPA</span></p>
-
-    </div>
-
-    <div class="info container">
-        <a href="#" class="enlace" para mas información></a>
-
-    </div>
-
-</section>
-
-<footer class="footer container">
-    <hr>
-    <div class="footer-txt">
-        <img src="Imagenes/LOGO.jpeg" alt="">
-        <div class="links">
-            <ul>
-                <li><a href="#">Inicio </a></li>
-                <li><a href="#">Servicios </a></li>
-                <li><a href="#">Instalaciones </a></li>
-                <li><a href="#">Contactenos </a></li>
-            </ul>
-            <div class="socials">
-                <img src="Imagenes/RS1.png" alt="">
-                <img src="Imagenes/RS2.png" alt="">
-                <img src="Imagenes/RS3.jpg" alt="">
-            </div>
-            <p>@maros_spa</p>
-
-        </div>
-
-    </div>
-</footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"></script>
-    <script> scr= "script.js"</script>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js" ></script>
 </body>
 </html>
